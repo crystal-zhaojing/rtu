@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:text="恢复遥测站出厂设置"
+
+        android:id="@+id/button_data_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+    <Button
+        android:text="中心站修改遥测站基本配置表"
+
+        android:id="@+id/button_basic_config"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+    <Button
+        android:text="中心站修改遥测站运行参数配置表"
+
+        android:id="@+id/button_operation_para"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+    <Button
+        android:text="（自定义扩展）配置要素报文"
+
+        android:id="@+id/button_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+        android:text="查询数据"
+
+        android:id="@+id/button_query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+</LinearLayout>

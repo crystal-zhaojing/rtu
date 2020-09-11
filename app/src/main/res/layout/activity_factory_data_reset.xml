@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FactoryDataResetActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:id="@+id/tv_reset_0"
+        android:text="恢复遥测站出厂设置" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:id="@+id/tv_reset_space"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+
+        android:id="@+id/tv_reset_1"
+        android:text="7E7E00445566776204D248800A02" />
+
+    <!--<EditText
+        android:id="@+id/edit_instr1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:hint="00 4455667762 04D2"
+        android:textSize="20"
+        />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+
+        android:id="@+id/tv_reset_2"
+        android:text="0000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+
+        android:id="@+id/tv_reset_3"
+        android:text="发报时间" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+
+        android:id="@+id/tv_reset_4"
+        android:text="980005" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+
+        android:id="@+id/tv_reset_5"
+        android:text="CRC" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:id="@+id/tv_reset_space1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:id="@+id/tv_reset_6"
+        android:text="恢复遥测站出厂设置的报文为" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tv_reset_7"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:id="@+id/tv_reset_space2"
+        />
+    <Button
+        android:text="发送报文"
+
+        android:id="@+id/button_reset_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        />
+</LinearLayout>
