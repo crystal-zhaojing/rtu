@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RunConfigActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/tv_run_config_0"
+        android:text="中心站修改遥测站运行参数配置表" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:id="@+id/tv_run_config_space" />
+
+    <EditText
+        android:id="@+id/edit_run_config_1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="遥测站地址" />
+    <EditText
+        android:id="@+id/edit_run_config_2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="中心站地址" />
+    <EditText
+        android:id="@+id/edit_basic_config_3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="密码" />
+
+    <EditText
+        android:id="@+id/edit_run_config_5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="遥测站地址" />
+
+    <Spinner android:id="@+id/spinner_run_config1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:entries="@array/type2"/>
+
+    <EditText
+        android:id="@+id/edit_run_config_6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="中心站1地址" />
+
+    <Spinner android:id="@+id/spinner_run_config2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:entries="@array/type3"/>
+    <Spinner android:id="@+id/spinner_run_config3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:entries="@array/type4"/>
+    <Spinner android:id="@+id/spinner_run_config4"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:entries="@array/type5"/>
+    <EditText
+        android:id="@+id/edit_run_config_7"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="中心站1备用地址" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/tv_run_config_msg"
+        />
+    <Button
+        android:text="发送报文"
+
+        android:id="@+id/button_run_config_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        />
+</LinearLayout>

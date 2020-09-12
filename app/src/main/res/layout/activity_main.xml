@@ -26,7 +26,7 @@
     <Button
         android:text="中心站修改遥测站运行参数配置表"
 
-        android:id="@+id/button_operation_para"
+        android:id="@+id/button_run_config"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 

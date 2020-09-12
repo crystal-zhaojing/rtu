@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
     private Button sendDataResetMsg;
     private Button sendBasicConfigMsg;
 
+    private Button query;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,10 +35,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        query.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, BleActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     public void init() {
         sendDataResetMsg = (Button)findViewById(R.id.button_data_reset);
         sendBasicConfigMsg = (Button)findViewById(R.id.button_basic_config);
+        query = (Button)findViewById(R.id.button_query);
     }
 }
