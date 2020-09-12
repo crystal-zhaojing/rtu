@@ -11,7 +11,7 @@
 9-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:5:5-20:19
+11-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:5:5-21:19
 12        android:allowBackup="true"
 12-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -25,25 +25,29 @@
 17-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
 18-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:11:9-40
-20        <activity android:name="com.example.rtu_ble.FactoryDataResetActivity" />
-20-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:12:9-71
-20-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:12:19-59
-21        <activity android:name="com.example.rtu_ble.MainActivity" >
-21-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:13:9-19:20
-21-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:13:19-47
-22            <intent-filter>
-22-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:14:13-18:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:15:17-69
-23-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:15:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:17:17-77
-25-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:17:27-74
-26            </intent-filter>
-27        </activity>
-28    </application>
-29
-30</manifest>
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.example.rtu_ble.BasicConfigActivity" />
+21-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:12:9-66
+21-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:12:19-54
+22        <activity android:name="com.example.rtu_ble.FactoryDataResetActivity" />
+22-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:13:9-62
+22-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:13:19-59
+23        <activity android:name="com.example.rtu_ble.MainActivity" >
+23-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:14:9-20:20
+23-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:14:19-47
+24            <intent-filter>
+24-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:16:17-69
+25-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:18:17-77
+27-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>
