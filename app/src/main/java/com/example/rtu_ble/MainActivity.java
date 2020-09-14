@@ -6,13 +6,16 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
 
     private Button sendDataResetMsg;
     private Button sendBasicConfigMsg;
+    private Button sendRunConfigMsg;
 
     private Button query;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +39,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        sendRunConfigMsg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, RunConfigActivity.class);
+                startActivity(intent);
+            }
+        });
+
         query.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,8 +57,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void init() {
+        toolbar = (Toolbar) findViewById(R.id.toolbar_main);   //屏幕顶端绿框
+        setSupportActionBar(toolbar);
+        toolbar.setTitle("rtu");
         sendDataResetMsg = (Button)findViewById(R.id.button_data_reset);
         sendBasicConfigMsg = (Button)findViewById(R.id.button_basic_config);
+        sendRunConfigMsg = (Button)findViewById(R.id.button_run_config);
         query = (Button)findViewById(R.id.button_query);
     }
 }

@@ -7,62 +7,163 @@
     android:orientation="vertical"
     tools:context=".BasicConfigActivity">
 
-    <TextView
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_basic_config"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:title="中心站修改遥测站基本配置表"
+        app:titleTextColor="@android:color/white" />
+    <!--<TextView
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:id="@+id/tv_basic_config_0"
-        android:text="中心站修改遥测站基本配置表" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:id="@+id/tv_basic_config_space" />
+        android:text="中心站修改遥测站基本配置表" />-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="遥测站地址:"
+            android:textSize="20dp"
+            android:id="@+id/tv_basic_config1"
+            />
+        <EditText
+            android:id="@+id/edit_basic_config_1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="遥测站地址" />
+    </LinearLayout>
 
-    <EditText
-        android:id="@+id/edit_basic_config_1"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:hint="遥测站地址" />
-    <EditText
-        android:id="@+id/edit_basic_config_2"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:hint="中心站地址" />
-    <EditText
-        android:id="@+id/edit_basic_config_3"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:hint="密码" />
-    <!--<EditText
-        android:id="@+id/edit_basic_config_4"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:hint="功能码" />-->
-    <EditText
-        android:id="@+id/edit_basic_config_5"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:hint="遥测站地址" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中心站地址:"
+            android:textSize="20dp"
+            android:id="@+id/tv_basic_config2"
+            />
+        <EditText
+            android:id="@+id/edit_basic_config_2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="中心站地址" />
+    </LinearLayout>
 
-    <Spinner android:id="@+id/spinner_basic_config1"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:entries="@array/type1"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密            码:"
+            android:textSize="20dp"
+            android:id="@+id/tv_basic_config3"
+            />
+        <EditText
+            android:id="@+id/edit_basic_config_3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="密码" />
+    </LinearLayout>
 
-    <EditText
-        android:id="@+id/edit_basic_config_6"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:hint="中心站1地址" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="遥测站地址:"
+            android:textSize="20dp"
+            android:id="@+id/tv_basic_config5"
+            />
+        <EditText
+            android:id="@+id/edit_basic_config_5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="遥测站地址" />
+    </LinearLayout>
 
-    <Spinner android:id="@+id/spinner_basic_config2"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:entries="@array/type1"/>
-    <EditText
-        android:id="@+id/edit_basic_config_7"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:hint="中心站1备用地址" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="信 道 类 型:"
+            android:textSize="20dp"
+            android:id="@+id/tv_basic_config4"
+            />
+        <Spinner android:id="@+id/spinner_basic_config1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:entries="@array/type1"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中心站1地址:"
+            android:textSize="20dp"
+            android:id="@+id/tv_basic_config6"
+            />
+        <EditText
+            android:id="@+id/edit_basic_config_6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="中心站1地址" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="信 道 类 型:"
+            android:textSize="20dp"
+            android:id="@+id/tv_basic_config7"
+            />
+        <Spinner android:id="@+id/spinner_basic_config2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:entries="@array/type1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中心站1备用地址:"
+            android:textSize="20dp"
+            android:id="@+id/tv_basic_config8"
+            />
+        <EditText
+            android:id="@+id/edit_basic_config_7"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="中心站1备用地址" />
+    </LinearLayout>
+
+
 
 
     <TextView
@@ -77,6 +178,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_basic_config_temp"
         />
 
 </LinearLayout>

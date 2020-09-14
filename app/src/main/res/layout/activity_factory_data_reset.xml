@@ -7,18 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".FactoryDataResetActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_reset"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:title=""
+        app:titleTextColor="@android:color/white" />
 
-        android:id="@+id/tv_reset_0"
-        android:text="恢复遥测站出厂设置" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-
-        android:id="@+id/tv_reset_space"
-        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="30dp"

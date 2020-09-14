@@ -3,12 +3,10 @@ package com.example.rtu_ble.operation;
 
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
-
 import android.os.Build;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
-import android.widget.Toolbar;
 
 import com.clj.fastble.BleManager;
 import com.clj.fastble.data.BleDevice;
@@ -19,11 +17,12 @@ import com.example.rtu_ble.comm.ObserverManager;
 import java.util.ArrayList;
 import java.util.List;
 
-
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
+
 
 public class OperationActivity extends AppCompatActivity implements Observer {
 
@@ -86,7 +85,7 @@ public class OperationActivity extends AppCompatActivity implements Observer {
     private void initView() {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle(titles[0]);
-//        setSupportActionBar(toolbar);
+        setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
@@ -119,7 +118,7 @@ public class OperationActivity extends AppCompatActivity implements Observer {
 
     public void changePage(int page) {
         currentPage = page;
-//        toolbar.setTitle(titles[page]);
+        toolbar.setTitle(titles[page] + "Just test");
         updateFragment(page);
         if (currentPage == 1) {
             ((CharacteristicListFragment) fragments.get(1)).showData();

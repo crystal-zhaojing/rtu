@@ -9,7 +9,7 @@ public class IncreaseIdUtil {
         return res.toUpperCase();
     }
 
-    public static String numToHex16(int b) {
+    private static String numToHex16(int b) {
         return String.format("%04x", b);
     }
 }

@@ -5,24 +5,26 @@ import android.bluetooth.BluetoothGattService;
 import android.os.Build;
 
 import com.clj.fastble.BleManager;
+import com.clj.fastble.callback.BleIndicateCallback;
 import com.clj.fastble.data.BleDevice;
+import com.clj.fastble.exception.BleException;
 import com.clj.fastble.utils.HexUtil;
 
 import java.util.List;
 
 import androidx.annotation.RequiresApi;
+import androidx.fragment.app.Fragment;
 
-public class BLEUtil {
+public class BLEUtil extends Fragment {
+    private static boolean indicateFlag = false;
     /**
      * @param data 发往蓝牙设备的字符串
      */
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR2)
-    private static void writeToBLEDevice(String data, String registerServiceUUID, String registerCharacteristic) {
+    public static void writeToBLEDevice(String data, String registerServiceUUID, String registerCharacteristic) {
         String hexData = str2HexStr(data);
         List<BleDevice> bleDeviceList = BleManager.getInstance().getAllConnectedDevice();
         if (bleDeviceList.size() != 0) {
-            /*String registerServiceUUID = "0000abf0-0000-1000-8000-00805f9b34fb";
-            String registerCharacteristic = "0000abf1-0000-1000-8000-00805f9b34fb";*/
 
             /*
             因FastBle框架里的write设置了强行分包处理，故调用原始BLE给设备发送信息
@@ -63,4 +65,38 @@ public class BLEUtil {
         }
         return sb.toString().trim();
     }
+
+    /**
+     * 打开通知
+     * @param service
+     * @param indicateCharacteristic
+     */
+    public static boolean openIndicate(String service, String indicateCharacteristic) {
+        List<BleDevice> bleDeviceList = BleManager.getInstance().getAllConnectedDevice();
+        if (bleDeviceList.size() != 0) {
+            BleManager.getInstance().indicate(
+                    bleDeviceList.get(0),
+                    service,
+                    indicateCharacteristic,
+                    new BleIndicateCallback() {
+
+                        @Override
+                        public void onIndicateSuccess() {
+                            indicateFlag = true;
+                        }
+
+                        @Override
+                        public void onIndicateFailure(final BleException exception) {
+
+                        }
+
+                        @Override
+                        public void onCharacteristicChanged(byte[] data) {
+
+                        }
+                    });
+        }
+        return indicateFlag;
+    }
+
 }

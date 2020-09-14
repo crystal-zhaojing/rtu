@@ -10,6 +10,7 @@ import com.example.rtu_ble.util.CRCUtil;
 import com.example.rtu_ble.util.TimeUtil;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class FactoryDataResetActivity extends AppCompatActivity {
 
@@ -20,6 +21,7 @@ public class FactoryDataResetActivity extends AppCompatActivity {
     private TextView tvReset5;
     private TextView tvReset7;
     private Button sendButton;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +49,16 @@ public class FactoryDataResetActivity extends AppCompatActivity {
     }
 
     public void init() {
+        toolbar = (Toolbar)findViewById(R.id.toolbar_reset);
+        toolbar.setTitle("恢复遥测站出厂设置");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
         tvReset1 = (TextView)findViewById(R.id.tv_reset_1);
         tvReset2 = (TextView)findViewById(R.id.tv_reset_2);
         tvReset3 = (TextView)findViewById(R.id.tv_reset_3);

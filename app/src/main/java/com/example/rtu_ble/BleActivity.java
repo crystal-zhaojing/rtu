@@ -27,7 +27,6 @@ import android.widget.ListView;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.Toolbar;
 
 import com.clj.fastble.BleManager;
 import com.clj.fastble.callback.BleGattCallback;
@@ -48,6 +47,7 @@ import java.util.UUID;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
@@ -131,7 +131,14 @@ public class BleActivity extends AppCompatActivity implements View.OnClickListen
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     private void initView() {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);   //屏幕顶端绿框
-//        setSupportActionBar(toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
         //监听开始扫描按钮事件
         btn_scan = (Button) findViewById(R.id.btn_scan);
@@ -306,7 +313,7 @@ public class BleActivity extends AppCompatActivity implements View.OnClickListen
             // 蓝牙设备连接成功并发现服务
             @Override
             public void onConnectSuccess(BleDevice bleDevice, BluetoothGatt gatt, int status) {
-
+                setMtu(bleDevice, 512);
                 progressDialog.dismiss();
                 mDeviceAdapter.addDevice(bleDevice);
                 mDeviceAdapter.notifyDataSetChanged();

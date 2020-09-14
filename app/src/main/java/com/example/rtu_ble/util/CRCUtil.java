@@ -7,7 +7,7 @@ public class CRCUtil {
         return res.toUpperCase();
     }
 
-    public static String getCRC(byte[] bytes) {
+    private static String getCRC(byte[] bytes) {
         int CRC = 0x0000ffff;
         int POLYNOMIAL = 0x0000a001;
 
@@ -31,7 +31,7 @@ public class CRCUtil {
      * @param hexString 十六进制字符串
      * @return byte数组
      */
-    public static byte[] hexStringToByteArray(String hexString) {
+    private static byte[] hexStringToByteArray(String hexString) {
         hexString = hexString.replaceAll(" ", "");
         int len = hexString.length();
         byte[] bytes = new byte[len / 2];
