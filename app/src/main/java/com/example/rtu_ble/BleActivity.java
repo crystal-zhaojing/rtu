@@ -39,6 +39,7 @@ import com.clj.fastble.scan.BleScanRuleConfig;
 import com.example.rtu_ble.adapter.DeviceAdapter;
 import com.example.rtu_ble.comm.ObserverManager;
 import com.example.rtu_ble.operation.OperationActivity;
+import com.example.rtu_ble.util.BLEUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,6 +53,9 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 public class BleActivity extends AppCompatActivity implements View.OnClickListener {
+
+    private static final String SERVICE = "0000a002-0000-1000-8000-00805f9b34fb";
+    private final String CHARACTERISTIC_INDICATE = "0000c306-0000-1000-8000-00805f9b34fb";
 
     private static final String TAG = BleActivity.class.getSimpleName();
 
@@ -263,18 +267,10 @@ public class BleActivity extends AppCompatActivity implements View.OnClickListen
             @Override
             public void onLeScan(BleDevice bleDevice) {
                 super.onLeScan(bleDevice);
-                //Log.d("onLeScan", bleDevice.getMac());
-                /*if(bleDevice.getMac().equals("30:AE:A4:DD:98:C2")){
-                    progressDialog.dismiss();
-                    mDeviceAdapter.addDevice(bleDevice);
-                    mDeviceAdapter.notifyDataSetChanged();
-                }*/
-
             }
 
             @Override
             public void onScanning(BleDevice bleDevice) {
-                //Log.d("onScanning", bleDevice.getMac());
                 mDeviceAdapter.addDevice(bleDevice);         //添加扫描到的设备
                 mDeviceAdapter.notifyDataSetChanged();       //更新UI
             }
@@ -313,6 +309,7 @@ public class BleActivity extends AppCompatActivity implements View.OnClickListen
             // 蓝牙设备连接成功并发现服务
             @Override
             public void onConnectSuccess(BleDevice bleDevice, BluetoothGatt gatt, int status) {
+                BLEUtil.openIndicate(bleDevice, SERVICE, CHARACTERISTIC_INDICATE);
                 setMtu(bleDevice, 512);
                 progressDialog.dismiss();
                 mDeviceAdapter.addDevice(bleDevice);

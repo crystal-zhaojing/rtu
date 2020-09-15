@@ -22,377 +22,342 @@
         android:title=""
         app:titleTextColor="@android:color/white" />
 
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中心站地址:"
+                android:textSize="20dp"
+                android:id="@+id/tv_run_config2"
+                />
+            <EditText
+                android:id="@+id/edit_run_config_1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="00"
+                android:hint="中心站地址" />
+        </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="遥测站地址:"
-            android:textSize="20dp"
-            android:id="@+id/tv_run_config1"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_1"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:hint="遥测站地址" />
-    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="中心站地址:"
-            android:textSize="20dp"
-            android:id="@+id/tv_run_config2"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_2"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:hint="中心站地址" />
-    </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="遥测站地址:"
+                android:textSize="20dp"
+                android:id="@+id/tv_run_config1"
+                />
+            <EditText
+                android:id="@+id/edit_run_config_2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="6666666601"
+                android:hint="遥测站地址" />
+        </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="密            码:"
-            android:textSize="20dp"
-            android:id="@+id/tv_run_config3"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_3"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:hint="密码" />
-    </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="遥测站地址:"
-            android:textSize="20dp"
-            android:id="@+id/tv_run_config4"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_4"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:hint="遥测站地址" />
-    </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="定时报时间间隔标识符及时间间隔："
-            android:id="@+id/tv_run_config5"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_5"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-        <Spinner android:id="@+id/spinner_run_config1"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:entries="@array/type2"/>
-    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密            码:"
+                android:textSize="20dp"
+                android:id="@+id/tv_run_config3"
+                />
+            <EditText
+                android:id="@+id/edit_run_config_3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="1234"
+                android:hint="密码" />
+        </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="加报时间间隔标识符及时间间隔："
-            android:id="@+id/tv_run_config6"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_6"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-        <Spinner android:id="@+id/spinner_run_config2"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:entries="@array/type2"/>
-    </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="降水量日起始时间间隔标识符及起始时间："
-            android:id="@+id/tv_run_config7"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_7"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-        <Spinner android:id="@+id/spinner_run_config3"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:entries="@array/type2"/>
-    </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="采样间隔标识符及采样间隔："
-            android:id="@+id/tv_run_config8"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_8"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-        <Spinner android:id="@+id/spinner_run_config4"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:entries="@array/type2"/>
-    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="定时报时间间隔标识符及时间间隔："
+                android:id="@+id/tv_run_config5"
+                />
+            <EditText
+                android:id="@+id/edit_run_config_4"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="2008"
+                android:hint="" />
+            <Spinner android:id="@+id/spinner_run_config1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:entries="@array/type10"/>
+        </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="水文数据存储间隔标识符及存储间隔："
-            android:id="@+id/tv_run_config9"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_9"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-        <Spinner android:id="@+id/spinner_run_config5"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:entries="@array/type2"/>
-    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加报时间间隔标识符及时间间隔："
+                android:id="@+id/tv_run_config6"
+                />
+            <EditText
+                android:id="@+id/edit_run_config_5"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="2108"
+                android:hint="" />
+            <Spinner android:id="@+id/spinner_run_config2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:entries="@array/type05"/>
+        </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="雨量计分辨力标识符及雨量计分辨力："
-            android:id="@+id/tv_run_config10"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_10"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-        <Spinner android:id="@+id/spinner_run_config6"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:entries="@array/type2"/>
-    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="降水量日起始时间间隔标识符及起始时间："
+                android:id="@+id/tv_run_config7"
+                />
+            <EditText
+                android:id="@+id/edit_run_config_6"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="2208"
+                android:hint="" />
+            <Spinner android:id="@+id/spinner_run_config3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:entries="@array/type08"/>
+        </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="水位计分辨力标识符及水位计分辨力："
-            android:id="@+id/tv_run_config11"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_11"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-        <Spinner android:id="@+id/spinner_run_config7"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:entries="@array/type2"/>
-    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="采样间隔标识符及采样间隔："
+                android:id="@+id/tv_run_config8"
+                />
+            <EditText
+                android:id="@+id/edit_run_config_7"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="2308"
+                android:hint="" />
+            <Spinner android:id="@+id/spinner_run_config4"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:entries="@array/type08"/>
+        </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="水位计分辨力标识符及水位计分辨力："
-            android:id="@+id/tv_run_config12"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_12"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-        <Spinner android:id="@+id/spinner_run_config8"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:entries="@array/type2"/>
-    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="水文数据存储间隔标识符及存储间隔："
+                android:id="@+id/tv_run_config9"
+                />
+            <EditText
+                android:id="@+id/edit_run_config_8"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="2408"
+                android:hint="" />
+            <Spinner android:id="@+id/spinner_run_config5"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:entries="@array/type08"/>
+        </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="雨量加报阈值标识符及雨量加报阈值："
-            android:id="@+id/tv_run_config13"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_13"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-        <Spinner android:id="@+id/spinner_run_config9"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:entries="@array/type2"/>
-    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="雨量计分辨力标识符及雨量计分辨力："
+                android:id="@+id/tv_run_config10"
+                />
+            <EditText
+                android:id="@+id/edit_run_config_9"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="2508"
+                android:hint="" />
+            <Spinner android:id="@+id/spinner_run_config6"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:entries="@array/type05"/>
+        </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="水位基值标识符及水位基值："
-            android:id="@+id/tv_run_config14"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_14"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-        <EditText
-            android:id="@+id/edit_run_config_144"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="水位计分辨力标识符及水位计分辨力："
+                android:id="@+id/tv_run_config11"
+                />
+            <EditText
+                android:id="@+id/edit_run_config_10"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="2608"
+                android:hint="" />
+            <Spinner android:id="@+id/spinner_run_config7"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:entries="@array/type01"/>
+        </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="水位修正基值标识符及水位修正基值："
-            android:id="@+id/tv_run_config15"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_15"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-        <EditText
-            android:id="@+id/edit_run_config_155"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-    </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="加报水位标识符及加报水位："
-            android:id="@+id/tv_run_config16"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_16"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-        <EditText
-            android:id="@+id/edit_run_config_166"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-    </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="加报水位以上加报阈值标识符及阈值："
-            android:id="@+id/tv_run_config17"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_17"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-        <EditText
-            android:id="@+id/edit_run_config_177"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="雨量加报阈值标识符及雨量加报阈值："
+                android:id="@+id/tv_run_config13"
+                />
+            <EditText
+                android:id="@+id/edit_run_config_11"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="2708"
+                android:hint="" />
+            <Spinner android:id="@+id/spinner_run_config8"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:entries="@array/type01"/>
+        </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="40dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="加报水位以下加报阈值标识符及阈值："
-            android:id="@+id/tv_run_config18"
-            />
-        <EditText
-            android:id="@+id/edit_run_config_18"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-        <EditText
-            android:id="@+id/edit_run_config_188"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:hint="" />
-    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="水位基值标识符及水位基值："
+                android:id="@+id/tv_run_config14"
+                />
+            <EditText
+                android:id="@+id/edit_run_config_12"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="2823"
+                android:hint="" />
+            <EditText
+                android:id="@+id/edit_run_config_122"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="00001000 "
+                android:hint="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="水位修正基值标识符及水位修正基值："
+                android:id="@+id/tv_run_config15"
+                />
+            <EditText
+                android:id="@+id/edit_run_config_13"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="301B"
+                android:hint="" />
+            <EditText
+                android:id="@+id/edit_run_config_133"
+                android:layout_width="100dp"
+                android:text="001000"
+                android:layout_height="wrap_content"
+                android:hint="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加报水位标识符及加报水位："
+                android:id="@+id/tv_run_config16"
+                />
+            <EditText
+                android:id="@+id/edit_run_config_14"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="3812"
+                android:hint="" />
+            <EditText
+                android:id="@+id/edit_run_config_144"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="0125"
+                android:hint="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加报水位以上加报阈值标识符及阈值："
+                android:id="@+id/tv_run_config17"
+                />
+            <EditText
+                android:id="@+id/edit_run_config_15"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="4012"
+                android:hint="" />
+            <EditText
+                android:id="@+id/edit_run_config_155"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="0001"
+                android:hint="" />
+        </LinearLayout>
+
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -401,29 +366,41 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="加报水位以下加报阈值标识符及阈值："
-                android:id="@+id/tv_run_t"
+                android:id="@+id/tv_run_config18"
                 />
             <EditText
-                android:id="@+id/edit_run_t"
+                android:id="@+id/edit_run_config_16"
                 android:layout_width="60dp"
                 android:layout_height="wrap_content"
+                android:text="4112"
                 android:hint="" />
             <EditText
-                android:id="@+id/edit_run_t8"
+                android:id="@+id/edit_run_config_166"
                 android:layout_width="60dp"
                 android:layout_height="wrap_content"
+                android:text="0003"
                 android:hint="" />
         </LinearLayout>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_run_config_msg"
+            />
 
+        <Button
+            android:text="发送报文"
 
-    <Button
-        android:text="发送报文"
+            android:id="@+id/button_run_config_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            />
 
-        android:id="@+id/button_run_config_send"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_run_config_temp"
+            />
     </LinearLayout>
 </ScrollView>

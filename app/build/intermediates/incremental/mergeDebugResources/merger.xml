@@ -2687,8 +2687,8 @@
         <item>04</item>
         <item>05</item>
         <item>06</item>
-    </string-array><string-array name="type2">
-        <item>时间间隔</item>
+    </string-array><string-array name="type10">
+        <item>10</item>
         <item>01</item>
         <item>02</item>
         <item>03</item>
@@ -2705,8 +2705,8 @@
         <item>14</item>
         <item>15</item>
         <item>16</item>
-    </string-array><string-array name="type3">
-        <item>采样间隔</item>
+    </string-array><string-array name="type08">
+        <item>08</item>
         <item>01</item>
         <item>02</item>
         <item>03</item>
@@ -2723,8 +2723,8 @@
         <item>14</item>
         <item>15</item>
         <item>16</item>
-    </string-array><string-array name="type4">
-        <item>存储间隔</item>
+    </string-array><string-array name="type05">
+        <item>05</item>
         <item>01</item>
         <item>02</item>
         <item>03</item>
@@ -2741,8 +2741,8 @@
         <item>14</item>
         <item>15</item>
         <item>16</item>
-    </string-array><string-array name="type5">
-        <item>加报时间间隔</item>
+    </string-array><string-array name="type01">
+        <item>01</item>
         <item>01</item>
         <item>02</item>
         <item>03</item>

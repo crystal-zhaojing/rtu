@@ -99,4 +99,33 @@ public class BLEUtil extends Fragment {
         return indicateFlag;
     }
 
+    /**
+     * 打开通知
+     * @param service
+     * @param indicateCharacteristic
+     */
+    public static void openIndicate(BleDevice bleDevice, String service, String indicateCharacteristic) {
+        BleManager.getInstance().indicate(
+                bleDevice,
+                service,
+                indicateCharacteristic,
+                new BleIndicateCallback() {
+
+                    @Override
+                    public void onIndicateSuccess() {
+
+                    }
+
+                    @Override
+                    public void onIndicateFailure(final BleException exception) {
+
+                    }
+
+                    @Override
+                    public void onCharacteristicChanged(byte[] data) {
+
+                    }
+                });
+    }
+
 }

@@ -75,12 +75,12 @@ public class BasicConfigActivity extends AppCompatActivity {
                         @Override
                         public void onIndicateSuccess() {
                             indicateFlag = true;
-                            Toast.makeText(BasicConfigActivity.this, "通知打开成功", Toast.LENGTH_SHORT).show();
+//                            Toast.makeText(BasicConfigActivity.this, "通知打开成功", Toast.LENGTH_SHORT).show();
                         }
 
                         @Override
                         public void onIndicateFailure(final BleException exception) {
-                            Toast.makeText(BasicConfigActivity.this, "通知打开失败", Toast.LENGTH_SHORT).show();
+//                            Toast.makeText(BasicConfigActivity.this, "通知打开失败", Toast.LENGTH_SHORT).show();
                         }
 
                         @Override
