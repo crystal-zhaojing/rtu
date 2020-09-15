@@ -97,57 +97,58 @@ public class BasicConfigActivity extends AppCompatActivity {
 
         init();
 
-       basicConfigButton.setOnClickListener(new View.OnClickListener() {
-           @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR2)
-           @Override
-           public void onClick(View view) {
+        basicConfigButton.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR2)
+            @Override
+            public void onClick(View view) {
 
-               String id = IncreaseIdUtil.getId();
-               String sysTime = TimeUtil.getSystemTime();
-               String msgFirst = FRAM_START + etBasicConfig1.getText().toString()
-                       + etBasicConfig2.getText().toString() + etBasicConfig3.getText().toString()
-                       + FUN_CODE + FIXED_80;
+                String id = IncreaseIdUtil.getId();
+                String sysTime = TimeUtil.getSystemTime();
+                String msgFirst = FRAM_START + etBasicConfig1.getText().toString()
+                        + etBasicConfig2.getText().toString() + etBasicConfig3.getText().toString()
+                        + FUN_CODE + FIXED_80;
 
-               String msgMiddle = id + sysTime + ADDRESS_FLAG + etBasicConfig5.getText().toString()
-                       + FIXED_MASTER + spinner1.getSelectedItem() + etBasicConfig6.getText().toString()
-                       + FIXED_SLAVE + spinner2.getSelectedItem() + etBasicConfig7.getText().toString();
+                String msgMiddle = id + sysTime + ADDRESS_FLAG + etBasicConfig5.getText().toString()
+                        + FIXED_MASTER + spinner1.getSelectedItem() + etBasicConfig6.getText().toString()
+                        + FIXED_SLAVE + spinner2.getSelectedItem() + etBasicConfig7.getText().toString();
 
 
-               String len = MsgUtil.getMsgLength(msgMiddle);
-               String msg = msgFirst + len + MSG_START + msgMiddle + MSG_END;
-               if (msg.length() / 2 == 1) {
-                   tvBasicConfig.setText("输入有误");
-               } else {
-                   String crc = CRCUtil.getCRC16(msg);
-                   String msgCrc = msg + crc;
-                   tvBasicConfig.setText(msgCrc);
+                String len = MsgUtil.getMsgLength(msgMiddle);
+                String msg = msgFirst + len + MSG_START + msgMiddle + MSG_END;
+                if (msg.length() / 2 == 1) {
+                    tvBasicConfig.setText("输入有误");
+                } else {
+                    String crc = CRCUtil.getCRC16(msg);
+                    String msgCrc = msg + crc;
+                    tvBasicConfig.setText(msgCrc);
 
-                   // BLEUtil.writeToBLEDevice(msgCrc + END, SERVICE, CHARACTERISTIC_WRITE);
-//                   writeToBle(msgCrc + END);
-                   List<BleDevice> bleDeviceList = BleManager.getInstance().getAllConnectedDevice();
-                   if (bleDeviceList != null && bleDeviceList.size() > 0) {
-                       BleManager.getInstance().write(
-                               bleDeviceList.get(0),
-                               SERVICE,
-                               CHARACTERISTIC_WRITE,
-                               HexUtil.hexStringToBytes(msgCrc + END),
-                               new BleWriteCallback() {
+                    List<BleDevice> bleDeviceList = BleManager.getInstance().getAllConnectedDevice();
+                    if (bleDeviceList != null && bleDeviceList.size() > 0) {
+                        BleManager.getInstance().write(
+                                bleDeviceList.get(0),
+                                SERVICE,
+                                CHARACTERISTIC_WRITE,
+                                HexUtil.hexStringToBytes(msgCrc + END),
+                                new BleWriteCallback() {
+                                    int i = 1;
 
-                                   @Override
-                                   public void onWriteSuccess(final int current, final int total, final byte[] justWrite) {
-                                       Toast.makeText(BasicConfigActivity.this, "发送成功", Toast.LENGTH_SHORT).show();
-                                   }
+                                    @Override
+                                    public void onWriteSuccess(final int current, final int total, final byte[] justWrite) {
+                                        if (i == 1) {
+                                            Toast.makeText(BasicConfigActivity.this, "发送成功", Toast.LENGTH_SHORT).show();
+                                        }
+                                        i++;
+                                    }
 
-                                   @Override
-                                   public void onWriteFailure(final BleException exception) {
-                                       Toast.makeText(BasicConfigActivity.this, "发送失败", Toast.LENGTH_SHORT).show();
-                                   }
-                               });
-                   }
-//                   Toast.makeText(BasicConfigActivity.this, "发送成功", Toast.LENGTH_SHORT).show();
-               }
-           }
-       });
+                                    @Override
+                                    public void onWriteFailure(final BleException exception) {
+                                        Toast.makeText(BasicConfigActivity.this, "发送失败", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
+                    }
+                }
+            }
+        });
 
     }
 
@@ -184,7 +185,7 @@ public class BasicConfigActivity extends AppCompatActivity {
     }
 
     public void init() {
-        toolbar = (Toolbar)findViewById(R.id.toolbar_basic_config);
+        toolbar = (Toolbar) findViewById(R.id.toolbar_basic_config);
         toolbar.setTitle("中心站修改遥测站运行参数配置表");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -194,22 +195,16 @@ public class BasicConfigActivity extends AppCompatActivity {
                 finish();
             }
         });
-        etBasicConfig1 = (EditText)findViewById(R.id.edit_basic_config_1);
-        etBasicConfig1.setText("0068153333");
-        etBasicConfig2 = (EditText)findViewById(R.id.edit_basic_config_2);
-        etBasicConfig2.setText("00");
-        etBasicConfig3 = (EditText)findViewById(R.id.edit_basic_config_3);
-        etBasicConfig3.setText("1234");
-        etBasicConfig5 = (EditText)findViewById(R.id.edit_basic_config_5);
-        etBasicConfig5.setText("6666666602");
-        etBasicConfig6 = (EditText)findViewById(R.id.edit_basic_config_6);
-        etBasicConfig6.setText("039108190066009999");
-        etBasicConfig7 = (EditText)findViewById(R.id.edit_basic_config_7);
-        etBasicConfig7.setText("047097218124006666");
-        tvBasicConfig = (TextView)findViewById(R.id.tv_basic_config_msg);
-        basicConfigButton = (Button)findViewById(R.id.button_basic_config_send);
-        spinner1 = (Spinner)findViewById(R.id.spinner_basic_config1);
-        spinner2 = (Spinner)findViewById(R.id.spinner_basic_config2);
-        tvBasicConfigTemp = (TextView)findViewById(R.id.tv_basic_config_temp);
+        etBasicConfig1 = (EditText) findViewById(R.id.edit_basic_config_1);
+        etBasicConfig2 = (EditText) findViewById(R.id.edit_basic_config_2);
+        etBasicConfig3 = (EditText) findViewById(R.id.edit_basic_config_3);
+        etBasicConfig5 = (EditText) findViewById(R.id.edit_basic_config_5);
+        etBasicConfig6 = (EditText) findViewById(R.id.edit_basic_config_6);
+        etBasicConfig7 = (EditText) findViewById(R.id.edit_basic_config_7);
+        tvBasicConfig = (TextView) findViewById(R.id.tv_basic_config_msg);
+        basicConfigButton = (Button) findViewById(R.id.button_basic_config_send);
+        spinner1 = (Spinner) findViewById(R.id.spinner_basic_config1);
+        spinner2 = (Spinner) findViewById(R.id.spinner_basic_config2);
+        tvBasicConfigTemp = (TextView) findViewById(R.id.tv_basic_config_temp);
     }
 }

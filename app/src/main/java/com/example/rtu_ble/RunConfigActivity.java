@@ -1,5 +1,6 @@
 package com.example.rtu_ble;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -21,6 +22,7 @@ import com.example.rtu_ble.util.TimeUtil;
 
 import java.util.List;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
@@ -112,6 +114,7 @@ public class RunConfigActivity extends AppCompatActivity {
         init();
 
         runConfigButton.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR2)
             @Override
             public void onClick(View view) {
                 String id = IncreaseIdUtil.getId();
@@ -143,20 +146,27 @@ public class RunConfigActivity extends AppCompatActivity {
                 } else {
                     String crc = CRCUtil.getCRC16(msg);
                     String msgCrc = msg + crc;
+                    msgCrc += END;
                     tvRunConfig.setText(msgCrc);
 
+                    // BLEUtil.writeToBLEDevice(msgCrc, SERVICE, CHARACTERISTIC_WRITE);
                     List<BleDevice> bleDeviceList = BleManager.getInstance().getAllConnectedDevice();
                     if (bleDeviceList != null && bleDeviceList.size() > 0) {
                         BleManager.getInstance().write(
                                 bleDeviceList.get(0),
                                 SERVICE,
                                 CHARACTERISTIC_WRITE,
-                                HexUtil.hexStringToBytes(msgCrc + END),
+                                HexUtil.hexStringToBytes(msgCrc),
                                 new BleWriteCallback() {
+                                    int i = 1;
 
                                     @Override
                                     public void onWriteSuccess(final int current, final int total, final byte[] justWrite) {
-                                        Toast.makeText(RunConfigActivity.this, "发送成功", Toast.LENGTH_SHORT).show();
+                                        // Toast.makeText(RunConfigActivity.this, "发送成功", Toast.LENGTH_SHORT).show();
+                                        if (i == 1) {
+                                            Toast.makeText(RunConfigActivity.this, "发送成功", Toast.LENGTH_SHORT).show();
+                                        }
+                                        i++;
                                     }
 
                                     @Override
@@ -171,7 +181,7 @@ public class RunConfigActivity extends AppCompatActivity {
     }
 
     private void init() {
-        toolbar = (Toolbar)findViewById(R.id.toolbar_run_config);
+        toolbar = (Toolbar) findViewById(R.id.toolbar_run_config);
         toolbar.setTitle("中心站修改遥测站基本配置表");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -182,41 +192,41 @@ public class RunConfigActivity extends AppCompatActivity {
             }
         });
 
-        runConfigButton = (Button)findViewById(R.id.button_run_config_send);
+        runConfigButton = (Button) findViewById(R.id.button_run_config_send);
 
-        etRunConfig1 = (EditText)findViewById(R.id.edit_run_config_1);
-        etRunConfig2 = (EditText)findViewById(R.id.edit_run_config_2);
-        etRunConfig3 = (EditText)findViewById(R.id.edit_run_config_3);
-        etRunConfig4 = (EditText)findViewById(R.id.edit_run_config_4);
-        etRunConfig5 = (EditText)findViewById(R.id.edit_run_config_5);
-        etRunConfig6 = (EditText)findViewById(R.id.edit_run_config_6);
-        etRunConfig7 = (EditText)findViewById(R.id.edit_run_config_7);
-        etRunConfig8 = (EditText)findViewById(R.id.edit_run_config_8);
-        etRunConfig9 = (EditText)findViewById(R.id.edit_run_config_9);
-        etRunConfig10 = (EditText)findViewById(R.id.edit_run_config_10);
-        etRunConfig11 = (EditText)findViewById(R.id.edit_run_config_11);
-        etRunConfig12 = (EditText)findViewById(R.id.edit_run_config_12);
-        etRunConfig13 = (EditText)findViewById(R.id.edit_run_config_13);
-        etRunConfig14 = (EditText)findViewById(R.id.edit_run_config_14);
-        etRunConfig15 = (EditText)findViewById(R.id.edit_run_config_15);
-        etRunConfig16 = (EditText)findViewById(R.id.edit_run_config_16);
-        etRunConfig122 = (EditText)findViewById(R.id.edit_run_config_122);
-        etRunConfig133 = (EditText)findViewById(R.id.edit_run_config_133);
-        etRunConfig144 = (EditText)findViewById(R.id.edit_run_config_144);
-        etRunConfig155 = (EditText)findViewById(R.id.edit_run_config_155);
-        etRunConfig166 = (EditText)findViewById(R.id.edit_run_config_166);
+        etRunConfig1 = (EditText) findViewById(R.id.edit_run_config_1);
+        etRunConfig2 = (EditText) findViewById(R.id.edit_run_config_2);
+        etRunConfig3 = (EditText) findViewById(R.id.edit_run_config_3);
+        etRunConfig4 = (EditText) findViewById(R.id.edit_run_config_4);
+        etRunConfig5 = (EditText) findViewById(R.id.edit_run_config_5);
+        etRunConfig6 = (EditText) findViewById(R.id.edit_run_config_6);
+        etRunConfig7 = (EditText) findViewById(R.id.edit_run_config_7);
+        etRunConfig8 = (EditText) findViewById(R.id.edit_run_config_8);
+        etRunConfig9 = (EditText) findViewById(R.id.edit_run_config_9);
+        etRunConfig10 = (EditText) findViewById(R.id.edit_run_config_10);
+        etRunConfig11 = (EditText) findViewById(R.id.edit_run_config_11);
+        etRunConfig12 = (EditText) findViewById(R.id.edit_run_config_12);
+        etRunConfig13 = (EditText) findViewById(R.id.edit_run_config_13);
+        etRunConfig14 = (EditText) findViewById(R.id.edit_run_config_14);
+        etRunConfig15 = (EditText) findViewById(R.id.edit_run_config_15);
+        etRunConfig16 = (EditText) findViewById(R.id.edit_run_config_16);
+        etRunConfig122 = (EditText) findViewById(R.id.edit_run_config_122);
+        etRunConfig133 = (EditText) findViewById(R.id.edit_run_config_133);
+        etRunConfig144 = (EditText) findViewById(R.id.edit_run_config_144);
+        etRunConfig155 = (EditText) findViewById(R.id.edit_run_config_155);
+        etRunConfig166 = (EditText) findViewById(R.id.edit_run_config_166);
 
-        spinnerRunConfig1 = (Spinner)findViewById(R.id.spinner_run_config1);
-        spinnerRunConfig2 = (Spinner)findViewById(R.id.spinner_run_config2);
-        spinnerRunConfig3 = (Spinner)findViewById(R.id.spinner_run_config3);
-        spinnerRunConfig4 = (Spinner)findViewById(R.id.spinner_run_config4);
-        spinnerRunConfig5 = (Spinner)findViewById(R.id.spinner_run_config5);
-        spinnerRunConfig6 = (Spinner)findViewById(R.id.spinner_run_config6);
-        spinnerRunConfig7 = (Spinner)findViewById(R.id.spinner_run_config7);
-        spinnerRunConfig8 = (Spinner)findViewById(R.id.spinner_run_config8);
+        spinnerRunConfig1 = (Spinner) findViewById(R.id.spinner_run_config1);
+        spinnerRunConfig2 = (Spinner) findViewById(R.id.spinner_run_config2);
+        spinnerRunConfig3 = (Spinner) findViewById(R.id.spinner_run_config3);
+        spinnerRunConfig4 = (Spinner) findViewById(R.id.spinner_run_config4);
+        spinnerRunConfig5 = (Spinner) findViewById(R.id.spinner_run_config5);
+        spinnerRunConfig6 = (Spinner) findViewById(R.id.spinner_run_config6);
+        spinnerRunConfig7 = (Spinner) findViewById(R.id.spinner_run_config7);
+        spinnerRunConfig8 = (Spinner) findViewById(R.id.spinner_run_config8);
 
-        tvRunConfig = (TextView)findViewById(R.id.tv_run_config_msg);
-        tvRunConfigTemp = (TextView)findViewById(R.id.tv_run_config_temp);
+        tvRunConfig = (TextView) findViewById(R.id.tv_run_config_msg);
+        tvRunConfigTemp = (TextView) findViewById(R.id.tv_run_config_temp);
     }
 
     private void addText(TextView textView, String content) {

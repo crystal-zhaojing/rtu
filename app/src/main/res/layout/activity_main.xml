@@ -57,4 +57,13 @@
 
         />
 
+    <Button
+        android:text="蓝牙连接"
+
+        android:id="@+id/button_ble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
 </LinearLayout>

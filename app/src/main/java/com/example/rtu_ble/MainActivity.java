@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
     private Button sendDataResetMsg;
     private Button sendBasicConfigMsg;
     private Button sendRunConfigMsg;
-
     private Button query;
+    private Button bleConnect;
     private Toolbar toolbar;
 
     @Override
@@ -50,6 +50,14 @@ public class MainActivity extends AppCompatActivity {
         query.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, QueryMsgActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        bleConnect.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, BleActivity.class);
                 startActivity(intent);
             }
@@ -64,5 +72,6 @@ public class MainActivity extends AppCompatActivity {
         sendBasicConfigMsg = (Button)findViewById(R.id.button_basic_config);
         sendRunConfigMsg = (Button)findViewById(R.id.button_run_config);
         query = (Button)findViewById(R.id.button_query);
+        bleConnect = (Button)findViewById(R.id.button_ble);
     }
 }
