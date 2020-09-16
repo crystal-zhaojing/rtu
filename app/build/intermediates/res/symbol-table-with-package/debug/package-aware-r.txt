@@ -485,6 +485,7 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color tab_text_color_selector
 color tooltip_background_dark
 color tooltip_background_light
 dimen abc_action_bar_content_inset_material
@@ -692,8 +693,13 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable back
+drawable ic_ble
+drawable ic_dashboard_black_24dp
+drawable ic_home_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_notifications_black_24dp
 drawable ic_wx
 drawable notification_action_background
 drawable notification_bg
@@ -707,6 +713,11 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable search
+drawable tab_contact_selector
+drawable tab_record_selector
+drawable tab_setting_selector
+drawable tab_sign_selector
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -742,6 +753,7 @@ id always
 id async
 id barrier
 id beginning
+id ble_tab
 id blocking
 id bottom
 id btn
@@ -752,7 +764,7 @@ id btn_scan
 id buttonPanel
 id button_basic_config
 id button_basic_config_send
-id button_ble
+id button_ble_connect
 id button_custom
 id button_data_reset
 id button_query
@@ -823,6 +835,7 @@ id fill_horizontal
 id fill_vertical
 id forever
 id fragment
+id fragment_container
 id gone
 id group_divider
 id groups
@@ -887,10 +900,12 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id settings_tab
 id shortcut
 id showCustom
 id showHome
 id showTitle
+id sign_iv
 id spacer
 id spinner_basic_config1
 id spinner_basic_config2
@@ -916,6 +931,7 @@ id submenuarrow
 id submit_area
 id sw_auto
 id tabMode
+id tabs_rg
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
@@ -1027,8 +1043,10 @@ layout activity_user
 layout adapter_characteristic
 layout adapter_device
 layout adapter_service
+layout fragment_ble
 layout fragment_characteric_list
 layout fragment_characteric_operation
+layout fragment_main
 layout fragment_service_list
 layout include_viewpager
 layout layout_characteric_operation
@@ -1053,6 +1071,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+mipmap ic_ble
 mipmap ic_blue_connected
 mipmap ic_blue_remote
 mipmap ic_enter
@@ -1061,6 +1080,15 @@ mipmap ic_launcher_round
 mipmap ic_loading
 mipmap ic_rssi
 mipmap ic_scan
+mipmap sign
+mipmap tabbar_contact_default
+mipmap tabbar_contact_pressed
+mipmap tabbar_record_default
+mipmap tabbar_record_pressed
+mipmap tabbar_settings_default
+mipmap tabbar_settings_pressed
+mipmap tabbar_sign_default
+mipmap tabbar_sign_pressed
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1299,6 +1327,8 @@ style Base_Widget_AppCompat_Spinner_Underlined
 style Base_Widget_AppCompat_TextView_SpinnerItem
 style Base_Widget_AppCompat_Toolbar
 style Base_Widget_AppCompat_Toolbar_Button_Navigation
+style Custom
+style Custom_TabRadioButton
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_ThemeOverlay_AppCompat

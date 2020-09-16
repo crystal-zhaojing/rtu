@@ -72,6 +72,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_tabbar_record_default.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_record_default.png"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
@@ -136,8 +140,16 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_home_black_24dp.xml.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_home_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_home_black_24dp.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -192,6 +204,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\layout\\abc_screen_content_include.xml"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_notifications_black_24dp.xml.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_notifications_black_24dp.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
@@ -238,6 +254,10 @@
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\color-v21_abc_btn_colored_borderless_text_material.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color-v21\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_tabbar_settings_pressed.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_settings_pressed.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_search_api_material.xml.flat",
@@ -292,12 +312,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_out.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -324,12 +344,16 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_rssi.png.flat",
-        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_rssi.png"
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_tabbar_contact_default.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_contact_default.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_rssi.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_rssi.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_scan.png.flat",
@@ -404,12 +428,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -436,8 +460,16 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_home_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_home_black_24dp.png"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\72b2b92ec4ab73ff21fb9bc348de3b22\\core-1.0.1\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\drawable\\back.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -466,6 +498,10 @@
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_default.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_tabbar_sign_default.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_sign_default.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -508,6 +544,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main.xml.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
@@ -534,6 +574,10 @@
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_dashboard_black_24dp.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -568,12 +612,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -596,12 +640,16 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_home_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home_black_24dp.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_custom.xml.flat",
@@ -610,6 +658,10 @@
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_in.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_record_selector.xml.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\drawable\\tab_record_selector.xml"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
@@ -672,6 +724,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\color_tab_text_color_selector.xml.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\color\\tab_text_color_selector.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color\\switch_thumb_material_dark.xml"
     },
@@ -686,6 +742,10 @@
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_sign.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\mipmap-xhdpi\\sign.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -726,6 +786,10 @@
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_tabbar_contact_pressed.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_contact_pressed.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_vector_test.xml.flat",
@@ -772,6 +836,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\72b2b92ec4ab73ff21fb9bc348de3b22\\core-1.0.1\\res\\drawable\\notification_icon_background.xml"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_ble.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\mipmap-xhdpi\\ic_ble.png"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_light.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
@@ -788,12 +856,20 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_sign_selector.xml.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\drawable\\tab_sign_selector.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_dashboard_black_24dp.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_btn_checkable.xml.flat",
@@ -814,6 +890,10 @@
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\72b2b92ec4ab73ff21fb9bc348de3b22\\core-1.0.1\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notifications_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_notifications_black_24dp.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_clear_material.xml.flat",
@@ -892,6 +972,10 @@
         "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
@@ -912,12 +996,20 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_tabbar_sign_pressed.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_sign_pressed.png"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_list_divider_material.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-v21\\abc_list_divider_material.xml"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_notifications_black_24dp.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -946,6 +1038,10 @@
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_tabbar_record_pressed.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_record_pressed.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -992,6 +1088,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_dashboard_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_dashboard_black_24dp.png"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapter_service.xml.flat",
         "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\layout\\adapter_service.xml"
     },
@@ -1008,12 +1108,20 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home_black_24dp.png"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\72b2b92ec4ab73ff21fb9bc348de3b22\\core-1.0.1\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_borderless_text_material.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_contact_selector.xml.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\drawable\\tab_contact_selector.xml"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -1070,6 +1178,10 @@
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\drawable\\search.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
@@ -1232,6 +1344,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_home_black_24dp.png"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\layout\\abc_action_menu_layout.xml"
     },
@@ -1264,6 +1380,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
@@ -1290,6 +1410,10 @@
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_indicator_material.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_dashboard_black_24dp.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -1320,6 +1444,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_ble.xml.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\layout\\fragment_ble.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
@@ -1338,6 +1466,10 @@
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_home_black_24dp.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_loading.png.flat",
@@ -1424,12 +1556,20 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_dashboard_black_24dp.xml.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_dashboard_black_24dp.xml"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_search_url_text.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_tabbar_settings_default.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\mipmap-xhdpi\\tabbar_settings_default.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\anim_rotate.xml.flat",
@@ -1442,6 +1582,10 @@
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_setting_selector.xml.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\drawable\\tab_setting_selector.xml"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_radio.xml.flat",
@@ -1474,6 +1618,10 @@
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_ble.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\src\\main\\res\\drawable\\ic_ble.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_dark.xml.flat",
@@ -1530,6 +1678,10 @@
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_layout.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notifications_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_notifications_black_24dp.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -1622,6 +1774,10 @@
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_go_search_api_material.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_notifications_black_24dp.png"
     },
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -1744,6 +1900,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
@@ -1766,5 +1926,9 @@
     {
         "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\f6a183f8595ca34f3d5cc99d1f8bc322\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_notifications_black_24dp.png.flat",
+        "source": "D:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_notifications_black_24dp.png"
     }
 ]
