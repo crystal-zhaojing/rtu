@@ -115,7 +115,7 @@ public class BasicConfigActivity extends AppCompatActivity {
 
                 String len = MsgUtil.getMsgLength(msgMiddle);
                 String msg = msgFirst + len + MSG_START + msgMiddle + MSG_END;
-                if (msg.length() / 2 == 1) {
+                if (msg.length() % 2 == 1) {
                     tvBasicConfig.setText("输入有误");
                 } else {
                     String crc = CRCUtil.getCRC16(msg);

@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context=".RunConfigActivity">
 
 
@@ -26,25 +25,6 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="40dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="中心站地址:"
-                android:textSize="20dp"
-                android:id="@+id/tv_run_config2"
-                />
-            <EditText
-                android:id="@+id/edit_run_config_1"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:text="00"
-                android:hint="中心站地址" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="40dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -57,11 +37,28 @@
                 android:id="@+id/edit_run_config_2"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:text="6666666601"
+                android:text="0066666666"
                 android:hint="遥测站地址" />
         </LinearLayout>
 
-
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中心站地址:"
+                android:textSize="20dp"
+                android:id="@+id/tv_run_config2"
+                />
+            <EditText
+                android:id="@+id/edit_run_config_1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="01"
+                android:hint="中心站地址" />
+        </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
@@ -282,7 +279,7 @@
                 android:id="@+id/edit_run_config_122"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:text="00001000 "
+                android:text="00001000"
                 android:hint="" />
         </LinearLayout>
 
@@ -392,7 +389,7 @@
             android:text="发送报文"
 
             android:id="@+id/button_run_config_send"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             />

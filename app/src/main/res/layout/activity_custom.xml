@@ -1,9 +1,206 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".CustomActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_run_config"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:title=""
+        app:titleTextColor="@android:color/white" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="遥测站地址:"
+            android:textSize="20dp"
+            android:id="@+id/tv_custom_config1"
+            />
+        <EditText
+            android:id="@+id/edit_custom_config_2"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="0066666666"
+            android:hint="遥测站地址" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中心站地址:"
+            android:textSize="20dp"
+            android:id="@+id/tv_custom_config2"
+            />
+        <EditText
+            android:id="@+id/edit_custom_config_1"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="01"
+            android:hint="中心站地址" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密            码:"
+            android:textSize="20dp"
+            android:id="@+id/tv_custom_config3"
+            />
+        <EditText
+            android:id="@+id/edit_custom_config_3"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="1234"
+            android:hint="密码" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义要素:"
+            android:textSize="20dp"
+            android:id="@+id/tv_custom_config4"
+            />
+        <EditText
+            android:id="@+id/edit_custom_config_4"
+            android:layout_width="240dp"
+            android:text="FF"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义要素:"
+            android:textSize="20dp"
+            android:id="@+id/tv_custom_config5"
+            />
+        <EditText
+            android:id="@+id/edit_custom_config_5"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="FF"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义要素:"
+            android:textSize="20dp"
+            android:id="@+id/tv_custom_config6"
+            />
+        <EditText
+            android:id="@+id/edit_custom_config_6"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="FF"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义要素:"
+            android:textSize="20dp"
+            android:id="@+id/tv_custom_config7"
+            />
+        <EditText
+            android:id="@+id/edit_custom_config_7"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="FF"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义要素:"
+            android:textSize="20dp"
+            android:id="@+id/tv_custom_config8"
+            />
+        <EditText
+            android:id="@+id/edit_custom_config_8"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="FF"
+            />
+    </LinearLayout>
+
+    <Button
+        android:text="发送报文"
+
+        android:id="@+id/button_custom_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加自定义要素"
+            />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/My_layout"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

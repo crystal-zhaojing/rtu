@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.example.rtu_ble.BasicConfigActivity;
+import com.example.rtu_ble.CustomActivity;
 import com.example.rtu_ble.FactoryDataResetActivity;
 import com.example.rtu_ble.QueryMsgActivity;
 import com.example.rtu_ble.R;
@@ -23,6 +24,7 @@ public class MainFragment extends Fragment {
     private Button sendDataResetMsg;
     private Button sendBasicConfigMsg;
     private Button sendRunConfigMsg;
+    private Button sendCustomMsg;
     private Button query;
     private Toolbar toolbar;
 
@@ -58,6 +60,14 @@ public class MainFragment extends Fragment {
             }
         });
 
+        sendCustomMsg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), CustomActivity.class);
+                startActivity(intent);
+            }
+        });
+
         query.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -77,6 +87,7 @@ public class MainFragment extends Fragment {
         sendDataResetMsg = (Button)layout.findViewById(R.id.button_data_reset);
         sendBasicConfigMsg = (Button)layout.findViewById(R.id.button_basic_config);
         sendRunConfigMsg = (Button)layout.findViewById(R.id.button_run_config);
+        sendCustomMsg = (Button)layout.findViewById(R.id.button_custom);
         query = (Button)layout.findViewById(R.id.button_query);
     }
 }

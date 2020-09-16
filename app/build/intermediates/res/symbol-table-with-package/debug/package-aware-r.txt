@@ -724,6 +724,7 @@ id ALT
 id CTRL
 id FUNCTION
 id META
+id My_layout
 id SHIFT
 id SYM
 id action0
@@ -757,6 +758,7 @@ id ble_tab
 id blocking
 id bottom
 id btn
+id btn_add
 id btn_connect
 id btn_detail
 id btn_disconnect
@@ -766,6 +768,7 @@ id button_basic_config
 id button_basic_config_send
 id button_ble_connect
 id button_custom
+id button_custom_send
 id button_data_reset
 id button_query
 id button_query_msg
@@ -799,6 +802,14 @@ id edit_basic_config_3
 id edit_basic_config_5
 id edit_basic_config_6
 id edit_basic_config_7
+id edit_custom_config_1
+id edit_custom_config_2
+id edit_custom_config_3
+id edit_custom_config_4
+id edit_custom_config_5
+id edit_custom_config_6
+id edit_custom_config_7
+id edit_custom_config_8
 id edit_query
 id edit_run_config_1
 id edit_run_config_10
@@ -961,6 +972,14 @@ id tv_basic_config7
 id tv_basic_config8
 id tv_basic_config_msg
 id tv_basic_config_temp
+id tv_custom_config1
+id tv_custom_config2
+id tv_custom_config3
+id tv_custom_config4
+id tv_custom_config5
+id tv_custom_config6
+id tv_custom_config7
+id tv_custom_config8
 id tv_custom_temp
 id tv_reset
 id tv_reset1
