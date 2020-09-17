@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="19"
         android:targetSdkVersion="28" />
     <!-- 运动相关权限 -->
     <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->

@@ -1,4 +1,4 @@
-#Thu Sep 17 15:46:43 GMT+08:00 2020
+#Thu Sep 17 17:23:38 GMT+08:00 2020
 base.0=D\:\\AndroidProject\\FastBle\\newfile\\rtuble\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

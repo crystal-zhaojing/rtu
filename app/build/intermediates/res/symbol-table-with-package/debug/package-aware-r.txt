@@ -1051,7 +1051,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_basic_config
-layout activity_basic_e_chart_demo
 layout activity_ble
 layout activity_custom
 layout activity_factory_data_reset

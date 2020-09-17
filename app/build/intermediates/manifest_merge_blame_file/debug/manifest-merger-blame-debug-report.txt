@@ -5,7 +5,7 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="15"
+8        android:minSdkVersion="19"
 8-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="28" />
 9-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml
