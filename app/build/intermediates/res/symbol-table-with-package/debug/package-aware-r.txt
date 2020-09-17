@@ -786,6 +786,7 @@ id checkbox
 id chronometer
 id clip_horizontal
 id clip_vertical
+id cloud_tab
 id collapseActionView
 id content
 id contentPanel
@@ -916,7 +917,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id sign_iv
 id spacer
 id spinner_basic_config1
 id spinner_basic_config2
@@ -1051,6 +1051,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_basic_config
+layout activity_basic_e_chart_demo
 layout activity_ble
 layout activity_custom
 layout activity_factory_data_reset
@@ -1065,6 +1066,7 @@ layout adapter_service
 layout fragment_ble
 layout fragment_characteric_list
 layout fragment_characteric_operation
+layout fragment_cloud
 layout fragment_main
 layout fragment_service_list
 layout include_viewpager
@@ -1093,6 +1095,7 @@ layout support_simple_spinner_dropdown_item
 mipmap ic_ble
 mipmap ic_blue_connected
 mipmap ic_blue_remote
+mipmap ic_cloud
 mipmap ic_enter
 mipmap ic_launcher
 mipmap ic_launcher_round

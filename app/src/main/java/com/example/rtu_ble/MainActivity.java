@@ -2,10 +2,10 @@ package com.example.rtu_ble;
 
 import android.os.Bundle;
 import android.util.SparseArray;
-import android.view.View;
 import android.widget.RadioGroup;
 
 import com.example.rtu_ble.fragment.BleFragment;
+import com.example.rtu_ble.fragment.CloudFragment;
 import com.example.rtu_ble.fragment.MainFragment;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         mTabRadioGroup = findViewById(R.id.tabs_rg);
         mFragmentSparseArray = new SparseArray<>();
         mFragmentSparseArray.append(R.id.settings_tab, new MainFragment());
+        mFragmentSparseArray.append(R.id.cloud_tab, new CloudFragment());
         mFragmentSparseArray.append(R.id.ble_tab, new BleFragment());
         mTabRadioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
@@ -41,12 +42,7 @@ public class MainActivity extends AppCompatActivity {
         // 默认显示第一个
         getSupportFragmentManager().beginTransaction().add(R.id.fragment_container,
                 mFragmentSparseArray.get(R.id.settings_tab)).commit();
-        findViewById(R.id.sign_iv).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-            }
-        });
 
     }
 
