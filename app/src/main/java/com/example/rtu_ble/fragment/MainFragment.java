@@ -19,6 +19,9 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 
+/**
+ * 默认fragment，主界面
+ */
 public class MainFragment extends Fragment {
 
     private Button sendDataResetMsg;

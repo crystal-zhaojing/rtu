@@ -23,6 +23,9 @@ import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * （自定义扩展）配置要素报文
+ */
 public class CustomActivity extends AppCompatActivity {
 
     private Button queryMsgButton;

@@ -1,5 +1,8 @@
 package com.example.rtu_ble.util;
 
+/**
+ * 生成自增id工具类
+ */
 public class IncreaseIdUtil {
     private static int i = 0;
 

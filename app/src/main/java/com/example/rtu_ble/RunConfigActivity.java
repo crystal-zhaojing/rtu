@@ -26,6 +26,9 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+/**
+ * 中心站修改遥测站运行参数配置表（修改发报时间间隔和采样时间间隔）
+ */
 public class RunConfigActivity extends AppCompatActivity {
 
     private final String FRAM_START = "7E7E";

@@ -52,6 +52,9 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+/**
+ * 蓝牙连接
+ */
 public class BleActivity extends AppCompatActivity implements View.OnClickListener {
 
     private static final String SERVICE = "0000a002-0000-1000-8000-00805f9b34fb";

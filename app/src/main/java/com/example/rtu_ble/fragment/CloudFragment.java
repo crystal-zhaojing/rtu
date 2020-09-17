@@ -11,6 +11,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+/**
+ * 查看服务器上数据
+ */
 public class CloudFragment extends Fragment {
 
     private View layout;

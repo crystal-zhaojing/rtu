@@ -26,6 +26,9 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+/**
+ * 中心站修改遥测站基本配置表
+ */
 public class BasicConfigActivity extends AppCompatActivity {
 
     private final String FRAM_START = "7E7E";

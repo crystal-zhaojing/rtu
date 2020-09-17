@@ -21,6 +21,9 @@ import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * 查询数据
+ */
 public class QueryMsgActivity extends AppCompatActivity {
 
     private Button queryMsgButton;

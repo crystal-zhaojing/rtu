@@ -22,6 +22,9 @@ import java.util.List;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+/**
+ * 恢复遥测站出厂设置
+ */
 public class FactoryDataResetActivity extends AppCompatActivity {
 
     private final String FRAM_START = "7E7E";

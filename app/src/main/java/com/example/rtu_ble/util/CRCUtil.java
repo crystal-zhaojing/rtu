@@ -1,5 +1,8 @@
 package com.example.rtu_ble.util;
 
+/**
+ * 生成CRC16校验码
+ */
 public class CRCUtil {
 
     public static String getCRC16(String s) {

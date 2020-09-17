@@ -14,6 +14,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+/**
+ * 蓝牙连接界面fragment
+ */
 public class BleFragment extends Fragment{
 
     private View layout;
