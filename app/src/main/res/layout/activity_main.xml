@@ -25,7 +25,13 @@
             android:drawableTop="@drawable/tab_setting_selector"
             android:text="设置" />
 
-        <View style="@style/Custom.TabRadioButton" />
+        <RadioButton
+            android:id="@+id/cloud_tab"
+            style="@style/Custom.TabRadioButton"
+            android:drawableTop="@mipmap/ic_cloud"
+            android:text="服务器" />
+
+<!--        <View style="@style/Custom.TabRadioButton" />-->
 
 
 
@@ -36,12 +42,12 @@
             android:text="蓝牙" />
     </RadioGroup>
 
-    <ImageView
+    <!--<ImageView
         android:id="@+id/sign_iv"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@android:color/transparent"
-        android:src="@mipmap/sign" />
+        android:src="@mipmap/sign" />-->
 </RelativeLayout>
