@@ -100,44 +100,43 @@
 45-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:9:9-54
 46        android:supportsRtl="true"
 46-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:10:9-35
-47        android:testOnly="true"
-48        android:theme="@style/AppTheme" >
-48-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:11:9-40
-49        <activity android:name="com.example.rtu_ble.QueryMsgActivity" />
-49-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:12:9-63
-49-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:12:19-51
-50        <activity android:name="com.example.rtu_ble.CustomActivity" />
-50-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:13:9-52
-50-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:13:19-49
-51        <activity android:name="com.example.rtu_ble.RunConfigActivity" />
-51-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:14:9-55
-51-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:14:19-52
-52        <activity android:name="com.example.rtu_ble.BleActivity" />
-52-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:15:9-49
-52-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:15:19-46
-53        <activity android:name="com.example.rtu_ble.BasicConfigActivity" />
-53-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:16:9-57
-53-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:16:19-54
-54        <activity android:name="com.example.rtu_ble.FactoryDataResetActivity" />
-54-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:17:9-62
-54-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:17:19-59
-55        <activity android:name="com.example.rtu_ble.operation.OperationActivity" />
-55-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:18:9-65
-55-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:18:19-62
-56        <activity android:name="com.example.rtu_ble.MainActivity" >
-56-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:19:9-25:20
-56-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:19:19-47
-57            <intent-filter>
-57-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:20:13-24:29
-58                <action android:name="android.intent.action.MAIN" />
-58-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:21:17-69
-58-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:21:25-66
-59
-60                <category android:name="android.intent.category.LAUNCHER" />
-60-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:23:17-77
-60-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:23:27-74
-61            </intent-filter>
-62        </activity>
-63    </application>
-64
-65</manifest>
+47        android:theme="@style/AppTheme" >
+47-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:11:9-40
+48        <activity android:name="com.example.rtu_ble.QueryMsgActivity" />
+48-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:12:9-63
+48-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:12:19-51
+49        <activity android:name="com.example.rtu_ble.CustomActivity" />
+49-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:13:9-52
+49-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:13:19-49
+50        <activity android:name="com.example.rtu_ble.RunConfigActivity" />
+50-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:14:9-55
+50-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:14:19-52
+51        <activity android:name="com.example.rtu_ble.BleActivity" />
+51-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:15:9-49
+51-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:15:19-46
+52        <activity android:name="com.example.rtu_ble.BasicConfigActivity" />
+52-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:16:9-57
+52-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:16:19-54
+53        <activity android:name="com.example.rtu_ble.FactoryDataResetActivity" />
+53-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:17:9-62
+53-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:17:19-59
+54        <activity android:name="com.example.rtu_ble.operation.OperationActivity" />
+54-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:18:9-65
+54-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:18:19-62
+55        <activity android:name="com.example.rtu_ble.MainActivity" >
+55-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:19:9-25:20
+55-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:19:19-47
+56            <intent-filter>
+56-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:20:13-24:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:21:17-69
+57-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:21:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:23:17-77
+59-->D:\AndroidProject\FastBle\newfile\rtuble\app\src\main\AndroidManifest.xml:23:27-74
+60            </intent-filter>
+61        </activity>
+62    </application>
+63
+64</manifest>

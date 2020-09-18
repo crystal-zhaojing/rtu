@@ -20,6 +20,7 @@ import com.example.rtu_ble.util.TimeUtil;
 import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 /**
  * 查询数据
@@ -41,6 +42,8 @@ public class QueryMsgActivity extends AppCompatActivity {
     private static final String SERVICE = "0000a002-0000-1000-8000-00805f9b34fb";
     private static final String CHARACTERISTIC_WRITE = "0000c304-0000-1000-8000-00805f9b34fb";
     private final String CHARACTERISTIC_INDICATE = "0000c306-0000-1000-8000-00805f9b34fb";
+
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -120,6 +123,16 @@ public class QueryMsgActivity extends AppCompatActivity {
     }
 
     private void init() {
+        toolbar = (Toolbar) findViewById(R.id.toolbar_query_msg);
+        toolbar.setTitle("查询");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
         queryMsgButton = (Button)findViewById(R.id.button_query_msg);
         tvQueryMsg = (TextView)findViewById(R.id.tv_custom_temp);
     }

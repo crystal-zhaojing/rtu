@@ -22,6 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 /**
  * （自定义扩展）配置要素报文
@@ -58,6 +59,8 @@ public class CustomActivity extends AppCompatActivity {
     private EditText etCustom6;
     private EditText etCustom7;
     private EditText etCustom8;
+
+    private Toolbar toolbar;
 
     private int i = 0;
 
@@ -136,6 +139,11 @@ public class CustomActivity extends AppCompatActivity {
     }
 
     private void init() {
+        toolbar = (Toolbar) findViewById(R.id.toolbar_custom);
+        toolbar.setTitle("自定义");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         etCustom1 = (EditText)findViewById(R.id.edit_custom_config_1);
         etCustom2 = (EditText)findViewById(R.id.edit_custom_config_2);
         etCustom3 = (EditText)findViewById(R.id.edit_custom_config_3);

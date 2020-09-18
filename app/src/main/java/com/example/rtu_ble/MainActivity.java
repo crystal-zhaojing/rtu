@@ -2,6 +2,7 @@ package com.example.rtu_ble;
 
 import android.os.Bundle;
 import android.util.SparseArray;
+import android.view.View;
 import android.widget.RadioGroup;
 
 import com.example.rtu_ble.fragment.BleFragment;
@@ -43,6 +44,12 @@ public class MainActivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction().add(R.id.fragment_container,
                 mFragmentSparseArray.get(R.id.settings_tab)).commit();
 
+        findViewById(R.id.cloud_tab).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                
+            }
+        });
     }
 
 }
